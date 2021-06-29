@@ -19,13 +19,13 @@ body {
 
 .bg-pattern-top {
     position: relative;
-    bottom: 70%;
+    bottom: 60%;
     z-index: 0;
 }
 
 .bg-pattern-bottom {
     position: relative;
-    top: 70%;
+    top: 60%;
     z-index: 0;
 }
 
@@ -44,6 +44,8 @@ body {
     border-radius: 15px;
     overflow: hidden;
     z-index: 1;
+    transition: 1s box-shadow;
+    box-shadow: 1px 1px 50px -22px black;
 }
 
 .card-backdrop {
@@ -64,7 +66,7 @@ body {
 }
 
 .profile-header {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .name {
@@ -83,7 +85,7 @@ body {
     margin: 0;
     margin-top: -0.5em;
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: hsl(227, 10%, 46%);
 }
 
@@ -98,7 +100,7 @@ body {
     display: flex;
     width: 100%;
     flex-direction: row;
-    margin: 1em 0;
+    margin: 0.8em 0;
     justify-content: space-evenly;
 }
 
@@ -111,7 +113,7 @@ body {
 
 .stats-value {
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: hsl(229, 23%, 23%);
     margin-bottom: 0.5em;
 }
@@ -128,8 +130,10 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: #161616;
 }
 
 .attribution a {
-    color: hsl(229, 23%, 23%);
+    color: hsl(231, 39%, 23%);
+    text-decoration: none;
 }
